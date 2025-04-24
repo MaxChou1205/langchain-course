@@ -1,5 +1,6 @@
 from dotenv import load_dotenv
 from langchain.prompts.prompt import PromptTemplate
+# noinspection PyInterpreter
 from langchain_ollama import ChatOllama
 
 from third_parties.linkedin import scrape_linkedin_profile
