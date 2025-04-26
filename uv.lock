@@ -435,8 +435,10 @@ source = { virtual = "." }
 dependencies = [
     { name = "langchain" },
     { name = "langchain-community" },
+    { name = "langchain-core" },
     { name = "langchain-ollama" },
     { name = "langchain-tavily" },
+    { name = "pydantic" },
     { name = "python-dotenv" },
     { name = "tavily-python" },
 ]
@@ -445,8 +447,10 @@ dependencies = [
 requires-dist = [
     { name = "langchain", specifier = ">=0.3.24" },
     { name = "langchain-community", specifier = ">=0.3.22" },
+    { name = "langchain-core", specifier = ">=0.3.55" },
     { name = "langchain-ollama", specifier = ">=0.3.2" },
     { name = "langchain-tavily", specifier = ">=0.1.5" },
+    { name = "pydantic", specifier = ">=2.11.3" },
     { name = "python-dotenv", specifier = ">=1.1.0" },
     { name = "tavily-python", specifier = ">=0.6.0" },
 ]
