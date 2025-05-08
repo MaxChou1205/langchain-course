@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33e0ccd6-7905-45de-8976-97bcf719205f" name="Changes" comment="">
+    <list default="true" id="33e0ccd6-7905-45de-8976-97bcf719205f" name="Changes" comment="finish react_langchain">
+      <change afterPath="$PROJECT_DIR$/vector_dbs/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vector_dbs/ingestion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vector_dbs/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_langchain/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/react_langchain/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +26,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {}
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MaxChou1205/ice-breaker.git&quot;,
+    &quot;accountId&quot;: &quot;f1750849-053a-432a-8614-ce9632398b00&quot;
+  }
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
@@ -39,6 +50,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.ice_breaker.executor": "Debug",
+    "Python.ingestion.executor": "Run",
     "Python.linkedin_lookup_agent.executor": "Debug",
     "Python.main.executor": "Run",
     "Python.tools.executor": "Run",
@@ -53,7 +65,7 @@
       <recent name="C:\Users\v2asa\Desktop\langchain-course\ice_breaker" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager">
     <configuration name="ice_breaker" type="PythonConfigurationType" factoryName="Python">
       <module name="langchain-course" />
       <option name="ENV_FILES" value="" />
@@ -147,7 +159,20 @@
       <option name="presentableId" value="Default" />
       <updated>1745506691672</updated>
     </task>
+    <task id="LOCAL-00001" summary="finish react_langchain">
+      <option name="closed" value="true" />
+      <created>1745854639351</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1745854639351</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="finish react_langchain" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish react_langchain" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -160,6 +185,10 @@
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/first-llm/main.py</url>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/react_langchain/callbacks.py</url>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
