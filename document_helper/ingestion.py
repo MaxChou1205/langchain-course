@@ -12,12 +12,13 @@ embeddings = OllamaEmbeddings(model="qwen3:latest")
 
 
 def ingest_docs():
+    print(os.environ["INDEX_NAME"])
     loader = ReadTheDocsLoader("./langchain-docs", encoding="utf-8")
 
     raw_documents = loader.load()
     print(f"loaded {len(raw_documents)} documents")
 
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size=600, chunk_overlap=50)
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=2000, chunk_overlap=50)
     documents = text_splitter.split_documents(raw_documents)
     for doc in documents:
         new_url = doc.metadata["source"]
