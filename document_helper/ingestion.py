@@ -22,7 +22,7 @@ def ingest_docs():
     documents = text_splitter.split_documents(raw_documents)
     for doc in documents:
         new_url = doc.metadata["source"]
-        new_url = new_url.replace("langchain-docs", "https:/")
+        new_url = new_url.replace("langchain-docs\\", "https://api.python.langchain.com/en/latest/")
         doc.metadata.update({"source": new_url})
 
     print(f"Going to add {len(documents)} to Pinecone")
