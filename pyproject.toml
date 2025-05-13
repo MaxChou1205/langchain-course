@@ -4,12 +4,18 @@ version = "0.1.0"
 description = "Add your description here"
 requires-python = ">=3.12"
 dependencies = [
+    "beautifulsoup4>=4.13.4",
+    "bs4>=0.0.2",
     "langchain>=0.3.24",
     "langchain-community>=0.3.22",
     "langchain-core>=0.3.55",
+    "langchain-experimental>=0.3.4",
     "langchain-ollama>=0.3.2",
-    "langchain-tavily>=0.1.5",
+    "langchain-pinecone==0.2.6",
+    "pinecone>=6.0.2",
     "pydantic>=2.11.3",
     "python-dotenv>=1.1.0",
+    "qrcode>=8.2",
+    "streamlit>=1.45.0",
     "tavily-python>=0.6.0",
 ]

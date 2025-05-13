@@ -4,12 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33e0ccd6-7905-45de-8976-97bcf719205f" name="Changes" comment="finish react_langchain">
-      <change afterPath="$PROJECT_DIR$/vector_dbs/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_dbs/ingestion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_dbs/main.py" afterDir="false" />
+    <list default="true" id="33e0ccd6-7905-45de-8976-97bcf719205f" name="Changes" comment="vector dbs finished">
+      <change afterPath="$PROJECT_DIR$/code_interpreter/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document_helper/langchain-docs/aws_api_reference.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/document_helper/langchain-docs/community_api_reference.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/document_helper/langchain-docs/experimental_api_reference.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/document_helper/langchain-docs/google_community_api_reference.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/document_helper/langchain-docs/langchain.chains.llm_math.base.LLMMathChain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/document_helper/langchain-docs/langchain.chains.router.llm_router.LLMRouterChain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/document_helper/langchain-docs/langchain.chains.router.multi_prompt.MultiPromptChain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uv.lock" beforeDir="false" afterPath="$PROJECT_DIR$/uv.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,29 +51,64 @@
 }</component>
   <component name="ProjectId" id="2wBEiGVoiJThyswoASTFYJ2e5vP" />
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.ice_breaker.executor": "Debug",
+    "Python.core.executor": "Run",
+    "Python.ice_breaker.executor": "Run",
+    "Python.ingestion (1).executor": "Run",
     "Python.ingestion.executor": "Run",
     "Python.linkedin_lookup_agent.executor": "Debug",
+    "Python.main (1).executor": "Run",
     "Python.main.executor": "Run",
+    "Python.scrape.executor": "Run",
+    "Python.streamlit.executor": "Run",
     "Python.tools.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "last_opened_file_path": "C:/Users/v2asa/Desktop/langchain-course/code_interpreter",
+    "settings.editor.selected.configurable": "com.jetbrains.python.black.configuration.BlackFormatterConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\v2asa\Desktop\langchain-course\code_interpreter" />
+      <recent name="C:\Users\v2asa\Desktop\langchain-course\ document_helper" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\v2asa\Desktop\langchain-course\document_helper" />
       <recent name="C:\Users\v2asa\Desktop\langchain-course\ice_breaker" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main (1)">
+    <configuration name="core" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="langchain-course" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/document_helper/backend" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/document_helper/backend/core.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ice_breaker" type="PythonConfigurationType" factoryName="Python">
       <module name="langchain-course" />
       <option name="ENV_FILES" value="" />
@@ -75,6 +118,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="uv (langchain-course) (3)" />
       <option name="WORKING_DIRECTORY" value="C:\Users\v2asa\Desktop\langchain-course\ice_breaker" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -88,7 +132,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="linkedin_lookup_agent" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ingestion (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="langchain-course" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -97,11 +141,55 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ice_breaker/agents" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/document_helper" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ice_breaker/agents/linkedin_lookup_agent.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/document_helper/ingestion.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ingestion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="langchain-course" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ document_helper" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ document_helper/ingestion.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="langchain-course" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code_interpreter" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code_interpreter/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,15 +220,45 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="streamlit" type="PythonConfigurationType" factoryName="Python">
+      <module name="langchain-course" />
+      <option name="ENV_FILES" value="$PROJECT_DIR$/document_helper/.env" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="uv (langchain-course) (3)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.venv/Scripts/streamlit.exe" />
+      <option name="PARAMETERS" value="run document_helper/main.py" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Python.streamlit" />
       <item itemvalue="Python.ice_breaker" />
+      <item itemvalue="Python.main (1)" />
+      <item itemvalue="Python.core" />
+      <item itemvalue="Python.ingestion (1)" />
+      <item itemvalue="Python.ingestion" />
       <item itemvalue="Python.main" />
-      <item itemvalue="Python.linkedin_lookup_agent" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.ingestion (1)" />
+        <item itemvalue="Python.core" />
+        <item itemvalue="Python.ingestion" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.linkedin_lookup_agent" />
       </list>
     </recent_temporary>
   </component>
@@ -167,25 +285,45 @@
       <option name="project" value="LOCAL" />
       <updated>1745854639351</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="vector dbs v1">
+      <option name="closed" value="true" />
+      <created>1746719730131</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1746719730131</updated>
+    </task>
+    <task id="LOCAL-00003" summary="vector dbs finished">
+      <option name="closed" value="true" />
+      <created>1746960143242</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1746960143242</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="finish react_langchain" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish react_langchain" />
+    <MESSAGE value="vector dbs v1" />
+    <MESSAGE value="vector dbs finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="vector dbs finished" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ice_breaker/main.py</url>
-          <line>31</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/first-llm/main.py</url>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/react_langchain/callbacks.py</url>
           <option name="timeStamp" value="4" />
