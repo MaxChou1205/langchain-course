@@ -20,7 +20,7 @@ def qa_agent(openai_api_key, memory, vector_index, uploaded_file, question):
         separators=["\n", "。", "！", "？", "，", "、", ""]
     )
     texts = text_splitter.split_documents(docs)
-    embeddings_model = OpenAIEmbeddings()
+    embeddings_model = OpenAIEmbeddings(api_key=openai_api_key)
     db = PineconeVectorStore.from_documents(texts, embeddings_model, index_name=vector_index)
     retriever = db.as_retriever()
     qa = ConversationalRetrievalChain.from_llm(
